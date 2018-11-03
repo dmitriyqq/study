@@ -15,4 +15,7 @@
 *.href
 *.xref
 *.css
-
+*.nav
+*.out
+*.snm
+*.toc
