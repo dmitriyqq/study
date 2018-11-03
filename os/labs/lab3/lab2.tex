@@ -1,0 +1,256 @@
+\documentclass[a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+\usepackage[margin=1in]{geometry}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{setspace}
+\title{Лабораторная работа}
+\author{Шулайкин Д.А.}
+\begin{document}
+\onehalfspacing
+\thispagestyle{empty}
+\begin{center}
+Министерство образования и науки Российской Федерации
+\vspace{10pt}
+
+Федеральное государственное бюджетное образовательное учереждение высшего образования учреждения высшего профессионального образования "Ивановский государственный энергетический университет имени В.И. Ленина"
+\vspace{40pt}
+
+Кафедра програмного обеспечения компьютерных систем
+\vspace{40pt}
+
+\textbf{Отчет по лабораторной работе №3}
+
+Дисциплина: Операционные системы
+
+Тема: «РАБОТА В СРЕДЕ КОМАНДНОЙ ОБОЛОЧКИ MICROSOFT POWERSHELL»
+
+Вариант 12
+\end{center}
+
+\vspace{330pt}
+\begin{flushright}
+\textbf{Выполнил:}
+
+Студент гр. 2-42В, Шулайкин Д.А.
+
+\textbf{Проверил:}
+
+Гадалов А.Б.
+\end{flushright}
+\vspace{40pt}
+\begin{center}
+Иваново 2018
+\end{center}
+\pagebreak
+
+\section{Задание}
+\begin{enumerate}
+    \item Запустите виртуальную машину с предустановленной ОС MS Windows 7, подготовленную при выполнении лабораторной работы №2.
+    \item Запустите командную оболочку PowerShell, познакомьтесь со справочной системой.
+    \item В домашней директории пользователя привычными средствами (например, через Проводник) создайте каталог Lab. В этом каталоге (теми же средствами) создайте подкаталоги с именами изучаемых в этом семестре дисциплин (не менее 4, латиницей), а в каждом таком каталоге – подкаталоги с произвольными именами, например, Lectures, Labs, Exam (не менее 3). В каталог OS (Операционные системы) в один из подкаталогов (например, Labs) поместите не менее двух файлов с произвольным содержимым, например, скопируйте свои отчеты по лабораторным работам №1, №2.
+    \item Отобразите на экране (средствами PowerShell) содержимое домашней директории пользователя (рекурсивно).
+    \item Выведите на экран информацию обо всех файлах, находящихся в каталоге ./OS/Labs и удовлетворяющих некоторой маске.
+    \item Получите список дисков PowerShell, доступных в текущем сеансе работы.
+    \item Продемонстрируйте навигацию между созданными подкаталогами домашней директории пользователя с использованием командлета Set-Location, используйте абсолютные и относительные пути.
+    \item В домашней директории пользователя средствами PowerShell создайте новый диск с именем myLabsOs, ассоциированный с каталогом, в котором хранятся отчеты по лабораторным работам по дисциплине «Операционные системы».
+    \item Посмотрите содержимое каталога с отчетами по лабораторным работам, используя полный путь к каталогу, и используя имя диска, только что созданного и ассоциированного с этим каталогом.
+    \item  Сохраните несколько скриншотов в каталоге с отчетами по лабораторным работам. Выведите список всех файлов с расширением png (или jpg), сохраненных в каталоге с отчетами по лабораторным работам. Продемонстрируйте использование параметра –Exclude.
+    \item  Выведите список только подкаталогов директории /OS, отсортированный по времени создания. Определите размер каталога /OS.
+    \item  Средствами PowerShell создайте новый каталог testfile в каталоге /OS. В этом каталоге создайте файл, в котором сохраните время выполнения этого пункта задания (например, test\_file). Прочитайте содержимое созданного файла. Добавьте в конец файла сообщение «Тест успешно пройден» («Test is completed successfully») и новое время выполнения этого пункта задания.
+    \item  Создайте новый каталог newTest в каталоге другой дисциплины. Скопируйте в этот каталог файл test\_file. Отобразите содержимое нового каталога (рекурсивно), чтобы убедиться, что файл скопирован.
+    \item  Переименуйте каталог test\_dshulaikin в test\_dshulaikin1.
+    \item  Удалите файл test\_file из каталога /OS.
+    \item  Подготовьте отчет о выполненной работе.
+\end{enumerate}
+\section{Выполнение работы}
+
+Запустите виртуальную машину с предустановленной ОС MS Windows 7, подготовленную при выполнении лабораторной работы №2.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{1.png}
+    \caption{start VM}
+\end{figure}
+
+Запустите командную оболочку PowerShell, познакомьтесь со справочной системой.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{2.png}
+    \caption{get-help}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{3.png}
+    \caption{get-command}
+\end{figure}
+
+В домашней директории пользователя привычными средствами (например, через Проводник) создайте каталог Lab3. В этом каталоге (теми же средствами) создайте подкаталоги с именами изучаемых в этом семестре дисциплин (не менее 4, латиницей), а в каждом таком каталоге – подкаталоги с произвольными именами, например, Lectures, Labs, Exam (не менее 3). В каталог OS (Операционные системы) в один из подкаталогов (например, Labs) поместите не менее двух файлов с произвольным содержимым, например, скопируйте свои отчеты по лабораторным работам №1, №2.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{5.png}
+    \caption{dmitrii's home directory}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{6.png}
+    \caption{\~/Lab3/}
+\end{figure}
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{7.png}
+    \caption{\~/Lab3/os/labs}
+\end{figure}
+
+Отобразите на экране (средствами PowerShell) содержимое домашней директории пользователя (рекурсивно).
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{4.png}
+    \caption{\~/Lab3/os/labs/}
+\end{figure}
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{8.png}
+    \caption{\~/Lab3/os/labs/}
+\end{figure}
+
+Выведите на экран информацию обо всех файлах, находящихся в каталоге /OS/Labs и удовлетворяющих некоторой маске.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{9.png}
+    \caption{ls -R ./Lab3/os/labs/*2*}
+\end{figure}
+
+Получите список дисков PowerShell, доступных в текущем сеансе работы.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{10.png}
+    \caption{get-psdrive}
+\end{figure}
+
+Продемонстрируйте навигацию между созданными подкаталогами домашней директории пользователя с использованием командлета Set-Location, используйте абсолютные и относительные пути.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{11.png}
+    \caption{cd relative paths}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{12.png}
+    \caption{cd abs paths}
+\end{figure}
+
+В домашней директории пользователя средствами PowerShell создайте новый диск с именем myLabs\_OS, ассоциированный с каталогом, в котором хранятся отчеты по лабораторным работам по дисциплине «Операционные системы».
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{13.png}
+    \caption{new-psdrive -name myOsLabs -psprovider FileSystem -root ./Lab3/os/labs/}
+\end{figure}
+
+Посмотрите содержимое каталога с отчетами по лабораторным работам, используя полный путь к каталогу, и используя имя диска, только что созданного и ассоциированного с этим каталогом.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{14.png}
+    \caption{ls ./Lab3/os/labs/}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{15.png}
+    \caption{ls myOsLabs:/  }
+\end{figure}
+
+Сохраните несколько скриншотов в каталоге с отчетами по лабораторным работам. Выведите список всех файлов с расширением png (или jpg), сохраненных в каталоге с отчетами по лабораторным работам. Продемонстрируйте использование параметра –Exclude.
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{16.png}
+    \caption{ls ./Lab3/os/labs/ -exclude *png,*tex }
+\end{figure}
+
+Выведите список только подкаталогов директории ./OS, отсортированный по времени создания. Определите размер каталога ./OS.
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{18-2.png}
+    \caption{ls ./Lab3/os/ -R | measure-object -property length -sum }
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{18-3.png}
+    \caption{ sort subdirectories by creation time }
+\end{figure}
+
+Средствами PowerShell создайте новый каталог test\_dshulaikin в каталоге ./OS. В этом каталоге создайте файл, в котором сохраните время выполнения этого пункта задания (например, test\_dshulaikin). Прочитайте содержимое созданного файла. Добавьте в конец файла сообщение «Тест успешно пройден» («Test is completed successfully») и новое время выполнения этого пункта задания.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{20.png}
+    \caption{ make directory }
+\end{figure}
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{24.png}
+    \caption{ write to file }
+\end{figure}
+
+Создайте новый каталог newTest в каталоге другой дисциплины. Скопируйте в этот каталог файл test\_dshulaikin. Отобразите содержимое нового каталога (рекурсивно), чтобы убедиться, что файл скопирован.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{25.png}
+    \caption{mkdir}
+\end{figure}
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{26.png}
+    \caption{cp, ls}
+\end{figure}
+
+Переименуйте каталог.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{27.png}
+    \caption{mv}
+\end{figure}
+
+Удалите файл test\_file из каталога ./OS.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{29.png}
+    \caption{rm ./Lab3/os/test$\_$file.txt}
+\end{figure}
+
+
+Подготовьте отчет о выполненной работе.
+\subsection{Подготовьте отчет о выполненной работ}
+
+
+\section{Выводы по работе}
+
+PowerShell
+
+\end{document}

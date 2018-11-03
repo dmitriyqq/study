@@ -5,3 +5,14 @@
 *.gz
 *_latexmk*
 *latexindent*
+*.4ct
+*.4tc
+*.dvi
+*.html
+*.idv
+*.lg
+*.tmp
+*.href
+*.xref
+*.css
+
