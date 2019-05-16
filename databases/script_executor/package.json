@@ -1,0 +1,14 @@
+{
+  "name": "script_executor",
+  "version": "0.0.1",
+  "description": "execute scripts, write formatted in LaTeX output to files",
+  "main": "execute_query.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dmitrii Shulaikin",
+  "license": "ISC",
+  "dependencies": {
+    "tedious": "^6.1.1"
+  }
+}
