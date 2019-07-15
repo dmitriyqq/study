@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8a84f5d7-1711-4cd9-ae69-01c893ca9e42" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="local" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Test.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2340">
+              <caret line="156" column="3" selection-start-line="146" selection-end-line="156" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="uml://DATABASE/bc671370-4c1b-4194-8dff-32293ad98a4b.DATABASE:Aquapark">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>DATABASE</ID>
+              <OriginalElement>bc671370-4c1b-4194-8dff-32293ad98a4b.DATABASE:Aquapark</OriginalElement>
+              <nodes>
+                <node x="0.0" y="785.0">bc671370-4c1b-4194-8dff-32293ad98a4b.VIEW:Aquapark.dbo.SpentMoneyBills</node>
+                <node x="238.0" y="540.0">bc671370-4c1b-4194-8dff-32293ad98a4b.VIEW:Aquapark.dbo.SpentMoneyPasses</node>
+                <node x="476.0" y="540.0">bc671370-4c1b-4194-8dff-32293ad98a4b.VIEW:Aquapark.dbo.TotalSharedMoney</node>
+                <node x="17.140625" y="0.0">bc671370-4c1b-4194-8dff-32293ad98a4b.TABLE:Aquapark.dbo.Services</node>
+                <node x="507.0" y="213.0">bc671370-4c1b-4194-8dff-32293ad98a4b.TABLE:Aquapark.dbo.Deposits</node>
+                <node x="194.0" y="785.0">bc671370-4c1b-4194-8dff-32293ad98a4b.VIEW:Aquapark.dbo.SpentMoneyOnBills</node>
+                <node x="338.0" y="224.5">bc671370-4c1b-4194-8dff-32293ad98a4b.TABLE:Aquapark.dbo.CafeOrders</node>
+                <node x="0.0" y="213.0">bc671370-4c1b-4194-8dff-32293ad98a4b.TABLE:Aquapark.dbo.Bills</node>
+                <node x="667.0" y="224.5">bc671370-4c1b-4194-8dff-32293ad98a4b.TABLE:Aquapark.dbo.CafeItems</node>
+                <node x="388.0" y="785.0">bc671370-4c1b-4194-8dff-32293ad98a4b.VIEW:Aquapark.dbo.IncomingDeposits</node>
+                <node x="0.0" y="540.0">bc671370-4c1b-4194-8dff-32293ad98a4b.VIEW:Aquapark.dbo.Balance</node>
+                <node x="327.5" y="24.0">bc671370-4c1b-4194-8dff-32293ad98a4b.TABLE:Aquapark.dbo.Customers</node>
+                <node x="515.890625" y="391.0">bc671370-4c1b-4194-8dff-32293ad98a4b.TABLE:Aquapark.dbo.OrderItems</node>
+                <node x="169.0" y="225.0">bc671370-4c1b-4194-8dff-32293ad98a4b.TABLE:Aquapark.dbo.Passes</node>
+                <node x="707.0" y="540.0">bc671370-4c1b-4194-8dff-32293ad98a4b.VIEW:Aquapark.dbo.SpentMoneyCafe</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="bc671370-4c1b-4194-8dff-32293ad98a4b.TABLE:Aquapark.dbo.OrderItems" target="bc671370-4c1b-4194-8dff-32293ad98a4b.TABLE:Aquapark.dbo.CafeOrders">
+                  <point x="-31.25" y="-52.0" />
+                  <point x="547.140625" y="366.0" />
+                  <point x="412.5" y="366.0" />
+                  <point x="0.0" y="52.5" />
+                </edge>
+                <edge source="bc671370-4c1b-4194-8dff-32293ad98a4b.TABLE:Aquapark.dbo.Passes" target="bc671370-4c1b-4194-8dff-32293ad98a4b.TABLE:Aquapark.dbo.Customers">
+                  <point x="37.25" y="-52.0" />
+                  <point x="280.75" y="193.0" />
+                  <point x="378.5" y="193.0" />
+                  <point x="-34.0" y="52.5" />
+                </edge>
+                <edge source="bc671370-4c1b-4194-8dff-32293ad98a4b.TABLE:Aquapark.dbo.OrderItems" target="bc671370-4c1b-4194-8dff-32293ad98a4b.TABLE:Aquapark.dbo.CafeItems">
+                  <point x="31.25" y="-52.0" />
+                  <point x="609.640625" y="366.0" />
+                  <point x="748.5" y="366.0" />
+                  <point x="0.0" y="52.5" />
+                </edge>
+                <edge source="bc671370-4c1b-4194-8dff-32293ad98a4b.TABLE:Aquapark.dbo.Bills" target="bc671370-4c1b-4194-8dff-32293ad98a4b.TABLE:Aquapark.dbo.Customers">
+                  <point x="37.25" y="-64.0" />
+                  <point x="111.75" y="183.0" />
+                  <point x="344.5" y="183.0" />
+                  <point x="-68.0" y="52.5" />
+                </edge>
+                <edge source="bc671370-4c1b-4194-8dff-32293ad98a4b.TABLE:Aquapark.dbo.Passes" target="bc671370-4c1b-4194-8dff-32293ad98a4b.TABLE:Aquapark.dbo.Services">
+                  <point x="-37.25" y="-52.0" />
+                  <point x="206.25" y="173.0" />
+                  <point x="170.890625" y="173.0" />
+                  <point x="51.25" y="76.5" />
+                </edge>
+                <edge source="bc671370-4c1b-4194-8dff-32293ad98a4b.TABLE:Aquapark.dbo.Bills" target="bc671370-4c1b-4194-8dff-32293ad98a4b.TABLE:Aquapark.dbo.Services">
+                  <point x="-37.25" y="-64.0" />
+                  <point x="37.25" y="193.0" />
+                  <point x="68.390625" y="193.0" />
+                  <point x="-51.25" y="76.5" />
+                </edge>
+                <edge source="bc671370-4c1b-4194-8dff-32293ad98a4b.TABLE:Aquapark.dbo.CafeOrders" target="bc671370-4c1b-4194-8dff-32293ad98a4b.TABLE:Aquapark.dbo.Customers">
+                  <point x="0.0" y="-52.5" />
+                  <point x="0.0" y="52.5" />
+                </edge>
+                <edge source="bc671370-4c1b-4194-8dff-32293ad98a4b.TABLE:Aquapark.dbo.Deposits" target="bc671370-4c1b-4194-8dff-32293ad98a4b.TABLE:Aquapark.dbo.Customers">
+                  <point x="-35.0" y="-64.0" />
+                  <point x="542.0" y="193.0" />
+                  <point x="446.5" y="193.0" />
+                  <point x="34.0" y="52.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="101.0" y="220.0" />
+              <SelectedNodes>
+                <node>bc671370-4c1b-4194-8dff-32293ad98a4b.VIEW:Aquapark.dbo.SpentMoneyBills</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Key columns</Category>
+                <Category>Columns</Category>
+              </Categories>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="das://bc671370-4c1b-4194-8dff-32293ad98a4b/database/Aquapark/schema/dbo/table/Bills.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/queries/3.1_getcafeitems.sql">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/bc671370-4c1b-4194-8dff-32293ad98a4b/console.sql" />
+        <option value="/a8e8723d/bc671370-4c1b-4194-8dff-32293ad98a4b/database/Aquapark/schema/dbo/routine/BalanceTimeTravel.sql" />
+        <option value="/a8e8723d/bc671370-4c1b-4194-8dff-32293ad98a4b/database/Aquapark/schema/dbo/routine/ExistsPass.sql" />
+        <option value="$PROJECT_DIR$/queries/create_stored_procedure.sql" />
+        <option value="$PROJECT_DIR$/queries/execute_incoming_deposits_time_travel.sql" />
+        <option value="$PROJECT_DIR$/Test.sql" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="960" />
+    <option name="width" value="960" />
+    <option name="height" value="1044" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="databases" type="8cb6161f:DatabaseProjectViewPane$1$1" />
+              <item name="databases" type="5b8f4e1:DatabaseProjectViewPane$1$1$1" />
+            </path>
+            <path>
+              <item name="databases" type="8cb6161f:DatabaseProjectViewPane$1$1" />
+              <item name="databases" type="5b8f4e1:DatabaseProjectViewPane$1$1$1" />
+              <item name="queries" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DBE.Init.BalloonShown" value="true" />
+    <property name="DatabaseDriversLRU" value="sqlserver" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="true" />
+    <property name="database.console.LAST_STATE" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/img/db.png" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1" y="-1" width="1922" height="1046" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Database" order="0" visible="true" weight="0.18569905" />
+      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Database Console" order="0" visible="true" weight="0.23593074" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="5" />
+      <window_info anchor="bottom" id="Database Changes" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info active="true" anchor="right" content_ui="combo" id="Project" order="0" visible="true" weight="0.19316968" />
+      <window_info anchor="right" id="Structure" order="1" side_tool="true" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="das://bc671370-4c1b-4194-8dff-32293ad98a4b/database/Aquapark/schema/dbo/view/IncomingDeposits" />
+    <entry file="das://bc671370-4c1b-4194-8dff-32293ad98a4b/database/Aquapark/schema/dbo/view/SpentMoneyBills" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/bc671370-4c1b-4194-8dff-32293ad98a4b/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbSrc:///a8e8723d/bc671370-4c1b-4194-8dff-32293ad98a4b/database/Aquapark/schema/dbo/routine/BalanceTimeTravel.sql" />
+    <entry file="das://bc671370-4c1b-4194-8dff-32293ad98a4b/database/Aquapark/schema/dbo/view/SpentMoneyPasses" />
+    <entry file="file://$PROJECT_DIR$/queries/create_tables.sql" />
+    <entry file="file://$PROJECT_DIR$/queries/create_views.sql" />
+    <entry file="dbSrc:///a8e8723d/bc671370-4c1b-4194-8dff-32293ad98a4b/database/Aquapark/schema/dbo/routine/IncomingDepositsTimeTravel.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbSrc:///a8e8723d/bc671370-4c1b-4194-8dff-32293ad98a4b/database/Aquapark/schema/dbo/routine/SpentMoneyPassesTimeTravel.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbSrc:///a8e8723d/bc671370-4c1b-4194-8dff-32293ad98a4b/database/Aquapark/schema/dbo/routine/TotalSharedMoneyTimeTravel.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbSrc:///a8e8723d/bc671370-4c1b-4194-8dff-32293ad98a4b/database/Aquapark/schema/dbo/routine/UserHistory.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbSrc:///a8e8723d/bc671370-4c1b-4194-8dff-32293ad98a4b/database/Aquapark/schema/dbo/routine/SpentMoneyCafeTimeTravel.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbSrc:///a8e8723d/bc671370-4c1b-4194-8dff-32293ad98a4b/database/Aquapark/schema/dbo/routine/SpentMoneyBillsTimeTravel.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/queries/create_stored_procedure.sql" />
+    <entry file="file://$PROJECT_DIR$/queries/execute_incoming_deposits_time_travel.sql" />
+    <entry file="das://bc671370-4c1b-4194-8dff-32293ad98a4b/database/Aquapark/schema/dbo/table/Customers" />
+    <entry file="das://bc671370-4c1b-4194-8dff-32293ad98a4b/database/Aquapark/schema/dbo/table/Customers.sql" />
+    <entry file="das://bc671370-4c1b-4194-8dff-32293ad98a4b/database/Aquapark/schema/dbo/table/Services.sql" />
+    <entry file="das://bc671370-4c1b-4194-8dff-32293ad98a4b/database/Aquapark/schema/dbo/table/CafeItems" />
+    <entry file="dbSrc:///a8e8723d/bc671370-4c1b-4194-8dff-32293ad98a4b/database/Aquapark/schema/dbo/routine/ExistsPass.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://bc671370-4c1b-4194-8dff-32293ad98a4b/database/Aquapark/schema/dbo/table/Deposits" />
+    <entry file="das://bc671370-4c1b-4194-8dff-32293ad98a4b/database/Aquapark/schema/dbo/table/OrderItems" />
+    <entry file="das://bc671370-4c1b-4194-8dff-32293ad98a4b/database/Aquapark/schema/dbo/table/Passes" />
+    <entry file="das://bc671370-4c1b-4194-8dff-32293ad98a4b/database/Aquapark/schema/dbo/table/Services" />
+    <entry file="das://bc671370-4c1b-4194-8dff-32293ad98a4b/database/Aquapark/schema/dbo/table/Bills" />
+    <entry file="das://bc671370-4c1b-4194-8dff-32293ad98a4b/database/Aquapark/schema/dbo/table/CafeOrders" />
+    <entry file="das://bc671370-4c1b-4194-8dff-32293ad98a4b/database/Aquapark/schema/dbo/view/SpentMoneyCafe" />
+    <entry file="dbSrc:///a8e8723d/bc671370-4c1b-4194-8dff-32293ad98a4b/database/Aquapark/schema/dbo/view/SpentMoneyCafe.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2340">
+          <caret line="156" column="3" selection-start-line="146" selection-end-line="156" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/bc671370-4c1b-4194-8dff-32293ad98a4b.DATABASE:Aquapark">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>bc671370-4c1b-4194-8dff-32293ad98a4b.DATABASE:Aquapark</OriginalElement>
+          <nodes>
+            <node x="0.0" y="785.0">bc671370-4c1b-4194-8dff-32293ad98a4b.VIEW:Aquapark.dbo.SpentMoneyBills</node>
+            <node x="238.0" y="540.0">bc671370-4c1b-4194-8dff-32293ad98a4b.VIEW:Aquapark.dbo.SpentMoneyPasses</node>
+            <node x="476.0" y="540.0">bc671370-4c1b-4194-8dff-32293ad98a4b.VIEW:Aquapark.dbo.TotalSharedMoney</node>
+            <node x="17.140625" y="0.0">bc671370-4c1b-4194-8dff-32293ad98a4b.TABLE:Aquapark.dbo.Services</node>
+            <node x="507.0" y="213.0">bc671370-4c1b-4194-8dff-32293ad98a4b.TABLE:Aquapark.dbo.Deposits</node>
+            <node x="194.0" y="785.0">bc671370-4c1b-4194-8dff-32293ad98a4b.VIEW:Aquapark.dbo.SpentMoneyOnBills</node>
+            <node x="338.0" y="224.5">bc671370-4c1b-4194-8dff-32293ad98a4b.TABLE:Aquapark.dbo.CafeOrders</node>
+            <node x="0.0" y="213.0">bc671370-4c1b-4194-8dff-32293ad98a4b.TABLE:Aquapark.dbo.Bills</node>
+            <node x="667.0" y="224.5">bc671370-4c1b-4194-8dff-32293ad98a4b.TABLE:Aquapark.dbo.CafeItems</node>
+            <node x="388.0" y="785.0">bc671370-4c1b-4194-8dff-32293ad98a4b.VIEW:Aquapark.dbo.IncomingDeposits</node>
+            <node x="0.0" y="540.0">bc671370-4c1b-4194-8dff-32293ad98a4b.VIEW:Aquapark.dbo.Balance</node>
+            <node x="327.5" y="24.0">bc671370-4c1b-4194-8dff-32293ad98a4b.TABLE:Aquapark.dbo.Customers</node>
+            <node x="515.890625" y="391.0">bc671370-4c1b-4194-8dff-32293ad98a4b.TABLE:Aquapark.dbo.OrderItems</node>
+            <node x="169.0" y="225.0">bc671370-4c1b-4194-8dff-32293ad98a4b.TABLE:Aquapark.dbo.Passes</node>
+            <node x="707.0" y="540.0">bc671370-4c1b-4194-8dff-32293ad98a4b.VIEW:Aquapark.dbo.SpentMoneyCafe</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="bc671370-4c1b-4194-8dff-32293ad98a4b.TABLE:Aquapark.dbo.OrderItems" target="bc671370-4c1b-4194-8dff-32293ad98a4b.TABLE:Aquapark.dbo.CafeOrders">
+              <point x="-31.25" y="-52.0" />
+              <point x="547.140625" y="366.0" />
+              <point x="412.5" y="366.0" />
+              <point x="0.0" y="52.5" />
+            </edge>
+            <edge source="bc671370-4c1b-4194-8dff-32293ad98a4b.TABLE:Aquapark.dbo.Passes" target="bc671370-4c1b-4194-8dff-32293ad98a4b.TABLE:Aquapark.dbo.Customers">
+              <point x="37.25" y="-52.0" />
+              <point x="280.75" y="193.0" />
+              <point x="378.5" y="193.0" />
+              <point x="-34.0" y="52.5" />
+            </edge>
+            <edge source="bc671370-4c1b-4194-8dff-32293ad98a4b.TABLE:Aquapark.dbo.OrderItems" target="bc671370-4c1b-4194-8dff-32293ad98a4b.TABLE:Aquapark.dbo.CafeItems">
+              <point x="31.25" y="-52.0" />
+              <point x="609.640625" y="366.0" />
+              <point x="748.5" y="366.0" />
+              <point x="0.0" y="52.5" />
+            </edge>
+            <edge source="bc671370-4c1b-4194-8dff-32293ad98a4b.TABLE:Aquapark.dbo.Bills" target="bc671370-4c1b-4194-8dff-32293ad98a4b.TABLE:Aquapark.dbo.Customers">
+              <point x="37.25" y="-64.0" />
+              <point x="111.75" y="183.0" />
+              <point x="344.5" y="183.0" />
+              <point x="-68.0" y="52.5" />
+            </edge>
+            <edge source="bc671370-4c1b-4194-8dff-32293ad98a4b.TABLE:Aquapark.dbo.Passes" target="bc671370-4c1b-4194-8dff-32293ad98a4b.TABLE:Aquapark.dbo.Services">
+              <point x="-37.25" y="-52.0" />
+              <point x="206.25" y="173.0" />
+              <point x="170.890625" y="173.0" />
+              <point x="51.25" y="76.5" />
+            </edge>
+            <edge source="bc671370-4c1b-4194-8dff-32293ad98a4b.TABLE:Aquapark.dbo.Bills" target="bc671370-4c1b-4194-8dff-32293ad98a4b.TABLE:Aquapark.dbo.Services">
+              <point x="-37.25" y="-64.0" />
+              <point x="37.25" y="193.0" />
+              <point x="68.390625" y="193.0" />
+              <point x="-51.25" y="76.5" />
+            </edge>
+            <edge source="bc671370-4c1b-4194-8dff-32293ad98a4b.TABLE:Aquapark.dbo.CafeOrders" target="bc671370-4c1b-4194-8dff-32293ad98a4b.TABLE:Aquapark.dbo.Customers">
+              <point x="0.0" y="-52.5" />
+              <point x="0.0" y="52.5" />
+            </edge>
+            <edge source="bc671370-4c1b-4194-8dff-32293ad98a4b.TABLE:Aquapark.dbo.Deposits" target="bc671370-4c1b-4194-8dff-32293ad98a4b.TABLE:Aquapark.dbo.Customers">
+              <point x="-35.0" y="-64.0" />
+              <point x="542.0" y="193.0" />
+              <point x="446.5" y="193.0" />
+              <point x="34.0" y="52.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="101.0" y="220.0" />
+          <SelectedNodes>
+            <node>bc671370-4c1b-4194-8dff-32293ad98a4b.VIEW:Aquapark.dbo.SpentMoneyBills</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://bc671370-4c1b-4194-8dff-32293ad98a4b/database/Aquapark/schema/dbo/table/Bills.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/queries/3.1_getcafeitems.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+</project>

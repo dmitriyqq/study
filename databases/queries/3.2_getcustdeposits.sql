@@ -1,0 +1,1 @@
+select d.time, d.[from], d.amount from Deposits d where d.[to] = 1

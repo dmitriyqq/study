@@ -1,0 +1,1 @@
+select * from CafeItems where lower([name]) like 'm%'
